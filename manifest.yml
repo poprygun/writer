@@ -1,0 +1,9 @@
+---
+applications:
+- name: hazelcast-writer-mark
+  memory: 512M
+  instances: 1
+  path: target/writer-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/hazelcast/java-buildpack.git
+  # stack: cflinuxfs2
+
